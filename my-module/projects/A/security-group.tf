@@ -5,5 +5,5 @@ module "security-group" {
   name                = "my-security-group"
   vpc_id              = "vpc-05c07e7f"
   ingress_cidr_blocks = ["0.0.0.0/0"]
-  ingress_rules       = ["https-443-tcp", "http-80-tcp", "ssh-tcp"]
+  ingress_rules       = ["https-443-tcp", "http-80-tcp"]
 }
